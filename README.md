@@ -1,6 +1,23 @@
 # Instant-Message-V1
 一个简单的即时聊天服务器，java实现
 
+最新更新：
+
+功能指令格式如下：
+1. 注册: /register name Password Password
+2. 登录: /login name Password
+3. 登出: /logout
+4. 退出客户端: /quit
+5. 添加指定好友: /add name
+6. 删除指定好友: /delete name
+7. 与指定好友聊天: /chat name
+8. 停止向好友发送消息: /stopchat name
+9. 帮助: /help
+10. 刷行朋友和在线朋友列表: /flush
+11. 广播功能、退出广播功能: /super Password ;/quitsuper
+12. 修改密码: /ch_pswd name oldPassword newPassword
+
+
 使用技术：java socket编程 连接mysql数据库。－－要记得把数据库建表上传。
 
 写这个程序纯属个人兴趣，写着玩吧，顺便复习以下java编程和socket编程以及sql语句，把我的mbp配置好mysql环境，也许应该顺便写一个网页注册主页。
